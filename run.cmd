@@ -1,0 +1,2 @@
+cd %CURRENTDIRECTORY%
+flutter run

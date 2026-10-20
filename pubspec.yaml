@@ -1,0 +1,22 @@
+name: text_and_image_app
+description: A Flutter app displaying text and an image
+
+environment:
+  sdk: '^3.1.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Add any additional dependencies you might need
+
+flutter:
+  assets:
+    - assets/
+    - assets/ims/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Regular.ttf
